@@ -1,3 +1,5 @@
+# Task 0
+
 # Mobile Development Setup
 
 ## Environment Details
@@ -17,3 +19,30 @@
 
 ## Next Steps
 Ready to create first React Native app using Expo framework.
+
+# Task 1:
+
+# First Mobile App Creation
+
+## Scaffolding Process
+1. Used `npx create-expo-app@latest .` to create app in current directory
+2. Modified welcome text in `app/(tabs)/index.tsx`
+3. Successfully ran app with `npx expo start`
+4. Tested on device via QR code scan
+
+## File Structure Understanding
+- `app/` directory contains all screens
+- `(tabs)` creates tab-based navigation
+- `_layout.tsx` files control navigation structure
+- `constants/` holds app-wide constants like colors
+
+## Reset Project Observations
+When running `npm run reset-project`:
+- [Document what files were removed]
+- [Note what remained]
+- [Describe the new app structure]
+
+## Key Learnings
+- Expo Router uses file-based routing
+- ThemedText adapts to device appearance settings
+- Hot reloading updates app instantly
