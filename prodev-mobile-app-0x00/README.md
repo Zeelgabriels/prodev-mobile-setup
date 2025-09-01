@@ -1,50 +1,48 @@
-# Welcome to your Expo app 👋
+# Task 0
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+# Mobile Development Setup
 
-## Get started
+## Environment Details
+- **Operating System**: [Your OS - macOS/Windows/Linux]
+- **Node.js Version**: [Run `node --version`]
+- **VS Code Version**: [Run `code --version`]
+- **Expo Go**: Installed on [iOS/Android]
 
-1. Install dependencies
+## Setup Process
+1. Verified Node.js LTS installation
+2. Confirmed VS Code is working
+3. Downloaded Expo Go app on my [device type]
+4. Created Expo account: [your-email]
 
-   ```bash
-   npm install
-   ```
+## Challenges Faced
+[Document any issues you encountered and how you solved them]
 
-2. Start the app
+## Next Steps
+Ready to create first React Native app using Expo framework.
 
-   ```bash
-   npx expo start
-   ```
+# Task 1:
 
-In the output, you'll find options to open the app in a
+# First Mobile App Creation
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+## Scaffolding Process
+1. Used `npx create-expo-app@latest .` to create app in current directory
+2. Modified welcome text in `app/(tabs)/index.tsx`
+3. Successfully ran app with `npx expo start`
+4. Tested on device via QR code scan
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+## File Structure Understanding
+- `app/` directory contains all screens
+- `(tabs)` creates tab-based navigation
+- `_layout.tsx` files control navigation structure
+- `constants/` holds app-wide constants like colors
 
-## Get a fresh project
+## Reset Project Observations
+When running `npm run reset-project`:
+- [Document what files were removed]
+- [Note what remained]
+- [Describe the new app structure]
 
-When you're ready, run:
-
-```bash
-npm run reset-project
-```
-
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+## Key Learnings
+- Expo Router uses file-based routing
+- ThemedText adapts to device appearance settings
+- Hot reloading updates app instantly
