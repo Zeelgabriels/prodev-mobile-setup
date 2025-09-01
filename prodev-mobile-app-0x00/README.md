@@ -38,9 +38,9 @@ Ready to create first React Native app using Expo framework.
 
 ## Reset Project Observations
 When running `npm run reset-project`:
-- [Document what files were removed]
-- [Note what remained]
-- [Describe the new app structure]
+- the expore.tsx file and the (tabs) folder was removed.
+- _layout.tsx and index.tsx were the files remaining
+- The previous display has been cleared. The new display now shows: Edit app/index.tsx to edit this screen.
 
 ## Key Learnings
 - Expo Router uses file-based routing
